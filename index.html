@@ -23,6 +23,32 @@
   <p>Loading Environment</p>
 </div>
 
+<!-- Mobile Warning Screen -->
+<div class="mobile-warning" id="mobile-warning">
+  <div class="mobile-warning-content">
+    <div class="mobile-warning-icon">💻</div>
+    <div class="mobile-warning-logo">
+      <div class="logo-icon" style="width:48px;height:48px;font-size:18px;margin:0 auto 12px">IN</div>
+      <h1>INTERIA</h1>
+      <span>Design Studio</span>
+    </div>
+    <h2>Desktop Experience Required</h2>
+    <p>INTERIA is a 3D interior design tool that requires a larger screen for the best experience.</p>
+    <p>Please open this link on your <strong>laptop</strong> or <strong>desktop computer</strong> to access the full 3D editor with drag-and-drop furniture placement, material switching, and room customization.</p>
+    <div class="mobile-warning-features">
+      <div class="feature-pill">🖱️ Drag & Drop</div>
+      <div class="feature-pill">🔄 3D Orbit</div>
+      <div class="feature-pill">🎨 Materials</div>
+      <div class="feature-pill">📐 Precision</div>
+    </div>
+    <div class="mobile-warning-url">
+      <span>🔗</span>
+      <code id="current-url"></code>
+    </div>
+    <script>document.getElementById('current-url').textContent = window.location.href;</script>
+  </div>
+</div>
+
 <div id="app">
 
   <!-- Top Bar -->
